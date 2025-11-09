@@ -18,6 +18,8 @@ This project demonstrates hardware security analysis by detecting hidden malicio
 
 iverilog -o clean.out alu_clean.v tb_alu_clean.v
 vvp clean.out
+
+
 iverilog -o trojan.out alu_trojan.v tb_alu_trojan.v
 vvp trojan.out
 
